@@ -1,0 +1,886 @@
+id: ZrAiK9lTiUS6e3-pZ9o5bw
+projectId: yY30x06WHkSvN5tgSnFaHQ
+projectName: Website
+created: 2021-09-16T07:01:52.6417610Z
+protocol: 1
+tests:
+- id: q63-ZGNx4Um5YdhZEjB30g
+  name: Research
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-09-09T16:57:35.0000000
+  modificationDate: 2021-09-14T21:43:41.0000000
+  settings:
+    automationAssistant: true
+    appId: tHUdqUyCsUmVvNfdXlfPfg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tHUdqUyCsUmVvNfdXlfPfg
+    name: Celayix Website
+    url: https://www.celayix.com/
+    platform: Web
+  steps:
+  - id: BlOKo-CvmkKTNu6ss-J87g
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LhRFo2uQTUOYE9fstVdyRA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: RNxZH-mQCk6glgboiGk8Dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Research
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _ilxU0x6x0qxQ_ppkrEdGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: RNxZH-mQCk6glgboiGk8Dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KH7mwPxjmUWMCn69aqoL5w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: RNxZH-mQCk6glgboiGk8Dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NF3W344IVEixtgW1UTXkMQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: pMWgUg5vNkiXehRyV2xrUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Security
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Pem1lZzXaUipqzegjdOktA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: J-xyJqtnc0OnYBYisji7rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Home Health Care
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GdzH7tBPr0u9lrm8zyx6IA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: HO0tY-IUskKDbOAMEmdIuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Long Term Health Care
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dCiC_mnW8EWAj0y4eWa7BA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: lSRafzWVaUeyXnuoMx2Kxg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Hospitality
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ivCx8hPn30CmQN9ncXcUGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: KjXAhIBk3Ue156azke9U-g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Events and Venues
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QfZt7zw4FkmHsJFNjJosBA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 2rbiGLVH_ki-ppom7NoUyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Manufacturing
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lTU2n6Bn5EO3PU2sN64FuA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 3tzsx9lwk0ioUKPgUdAL5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Libraries
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7bk-i_1kdEeL6wc_KU-09g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: pMWgUg5vNkiXehRyV2xrUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jHpcfmfnmEegxyRQ_DW5XQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: J-xyJqtnc0OnYBYisji7rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5RhMUnk7FkSxq328hMcgZw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: HO0tY-IUskKDbOAMEmdIuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: t2omtU4i4EivnUq-By1LVA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: lSRafzWVaUeyXnuoMx2Kxg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FG7a6FkdRUmycH2qymmiOA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: KjXAhIBk3Ue156azke9U-g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CMNMmtQcska06P0xNbnk5w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: 2rbiGLVH_ki-ppom7NoUyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9SjOI0KwUk27AQrBwYFdLw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 3tzsx9lwk0ioUKPgUdAL5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VmIbh_Djhky8DVx53Eu1_A
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: RNxZH-mQCk6glgboiGk8Dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TROopyZUYUesDDDk0t__jQ
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HDfwekiXtkyeeuh8DfGp_Q
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: pMWgUg5vNkiXehRyV2xrUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ivi4YMP_qUSh6KNWVjxOmQ
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5Y8yHtBu7km8aXLD775-2w
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: J-xyJqtnc0OnYBYisji7rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RlhBMUSKPEC45Hb7HYwRKQ
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: J_6jouYCN0i4d2zilQK6kQ
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: HO0tY-IUskKDbOAMEmdIuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JVU5cjETEk6eCvh5NEZ7pw
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tVtouLDUMkqIuXv8cbCS6w
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: lSRafzWVaUeyXnuoMx2Kxg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: G0ALNVzLEku88G_cWcgkkQ
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: L7Z3qSZ_EU6MeswWEd50xA
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: KjXAhIBk3Ue156azke9U-g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tJuCFOOEDkC4DkWpW_p3iw
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BGu2vMZrk0mkJO357IvHHg
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: 2rbiGLVH_ki-ppom7NoUyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: g9Ka_6L4QUCmiHNwZoIAqg
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://www.celayix.com/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HJ7bIxGulUm8vloU9_H9tg
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: 3tzsx9lwk0ioUKPgUdAL5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://www.celayix.com/
+    type: Input
+  tags:
+  - Header
+auxTests: []
+elements:
+- id: RNxZH-mQCk6glgboiGk8Dg
+  name: Research
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/a[. = 'Research']
+    priority: 0
+  - name: XPATH
+    value: //div/ul/li[5]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/a
+    priority: 2
+- id: pMWgUg5vNkiXehRyV2xrUA
+  name: Security1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]/a[. = 'Security']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[1]/a
+    priority: 2
+- id: J-xyJqtnc0OnYBYisji7rg
+  name: Home Health Care1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[2]/a[. = 'Home Health Care']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 2
+- id: HO0tY-IUskKDbOAMEmdIuA
+  name: Long Term Health Care1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[3]/a[. = 'Long Term Health Care']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[3]/a
+    priority: 2
+- id: lSRafzWVaUeyXnuoMx2Kxg
+  name: Hospitality1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[4]/a[. = 'Hospitality']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[4]/a
+    priority: 2
+- id: KjXAhIBk3Ue156azke9U-g
+  name: Events and Venues1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[5]/a[. = 'Events and Venues']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[5]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[5]/a
+    priority: 2
+- id: 2rbiGLVH_ki-ppom7NoUyQ
+  name: Manufacturing1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[6]/a[. = 'Manufacturing']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[6]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[6]/a
+    priority: 2
+- id: 3tzsx9lwk0ioUKPgUdAL5g
+  name: Libraries1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[7]/a[. = 'Libraries']
+    priority: 0
+  - name: XPATH
+    value: //li[5]/ul/li/ul/li[1]/ul/li[7]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[5]/ul/li/ul/li[1]/ul/li[7]/a
+    priority: 2
+projectParameters: []
+addons: []
