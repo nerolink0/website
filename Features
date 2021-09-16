@@ -1,0 +1,343 @@
+id: B0iWOl1obUScNH-ifhd2Hw
+projectId: yY30x06WHkSvN5tgSnFaHQ
+projectName: Website
+created: 2021-09-16T07:01:52.6803177Z
+protocol: 1
+tests:
+- id: 3ChzgdMJskuX5fDQH0wEXg
+  name: Features
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-09-08T18:18:42.0000000
+  modificationDate: 2021-09-08T21:08:13.0000000
+  settings:
+    automationAssistant: true
+    appId: tHUdqUyCsUmVvNfdXlfPfg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tHUdqUyCsUmVvNfdXlfPfg
+    name: Celayix Website
+    url: https://www.celayix.com/
+    platform: Web
+  steps:
+  - id: SUUskKRWjUCJvsutdwYwWw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zN3lm3iLQ02Dyplchmq1tQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: M3K_wGZgVk-ewHwiv8zs1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Industries
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hj0ZdWTp_k6EaeAKGioFtA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 6UtStE8t3UmNpOi7lC3gUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: m-Qesz1zhESbIS2KHPJr9Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 6UtStE8t3UmNpOi7lC3gUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wIBJTvBCqUCrdaD0O0reUA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 6UtStE8t3UmNpOi7lC3gUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u2illDltekC3IG0IruAh5Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 2C9UX0dIrU66qanaINwffg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Celayix Scheduler
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OUmpXnyb00eXWtGpZARTDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: FIXVHd-BiEeqx8SY0S7Y2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Celayix Time & Attendance
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iJKlQ0BxCkiaKsWGXRWBBQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 2C9UX0dIrU66qanaINwffg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9PbO52xujEGjSdLTTiRLGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: FIXVHd-BiEeqx8SY0S7Y2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9Ll3F8XDqUCC1nk6nNCLiw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 2C9UX0dIrU66qanaINwffg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 420kJtwfskCaHOFslVnKLQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: FIXVHd-BiEeqx8SY0S7Y2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://www.celayix.com/
+    type: Input
+  tags:
+  - Header
+auxTests: []
+elements:
+- id: M3K_wGZgVk-ewHwiv8zs1g
+  name: Industries
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Industries']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[3]/a
+    priority: 2
+- id: 6UtStE8t3UmNpOi7lC3gUA
+  name: Features
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Features']
+    priority: 0
+  - name: XPATH
+    value: //div/ul/li[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[4]/a
+    priority: 2
+- id: 2C9UX0dIrU66qanaINwffg
+  name: Celayix Scheduler
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/a[. = 'Celayix Scheduler']
+    priority: 0
+  - name: XPATH
+    value: //li[4]/ul/li/ul/li[1]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[4]/ul/li/ul/li[1]/ul/li[1]/a
+    priority: 2
+- id: FIXVHd-BiEeqx8SY0S7Y2g
+  name: Celayix Time & Attendance
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/a[. = 'Celayix Time & Attendance']
+    priority: 0
+  - name: XPATH
+    value: //li[4]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[4]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 2
+projectParameters: []
+addons: []

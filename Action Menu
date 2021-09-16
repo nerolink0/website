@@ -1,0 +1,550 @@
+id: Ak8eHp9zqUGVdMoyigkHyw
+projectId: yY30x06WHkSvN5tgSnFaHQ
+projectName: Website
+created: 2021-09-16T07:01:52.5802898Z
+protocol: 1
+tests:
+- id: cF0W2ICvZkSXOS1TkqwTYQ
+  name: Action Menu
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-09-08T18:12:57.0000000
+  modificationDate: 2021-09-09T17:46:30.0000000
+  settings:
+    automationAssistant: true
+    appId: tHUdqUyCsUmVvNfdXlfPfg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tHUdqUyCsUmVvNfdXlfPfg
+    name: Celayix Website
+    url: https://www.celayix.com/
+    platform: Web
+  steps:
+  - id: vvvKnLEURU-gUbjxfDOXlw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K1LmjxDaskmsRcb9ecqHcg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Zx8krQ9tiU-H9IjwSSQC0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tvB65OXIAU-nL0B4m5UY9w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 7W9zAYClZ02ZRGdtBlzqrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9yM72a0Br0G-kQB2ZW0nAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 7W9zAYClZ02ZRGdtBlzqrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bTck7K9zPUO-UcKV4QVtBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: WWf5XfpZrk--51IYRd8K4g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: No-Risk Decisions
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 52X5r4zJoESnu08X6_DGig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: WWf5XfpZrk--51IYRd8K4g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uWZ10kDESU29n4H_Fuvy6A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: wEJ7h7-HGUu_2u8jqxYplQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Live Custom Demo
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -yz9hkkID0iyS15lqyc3lA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: wEJ7h7-HGUu_2u8jqxYplQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: a3LqZqWp1UOpQ6riy1wlRA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: SViUFg1iY0-ByoFI-aGNXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 14-Day Trial
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qdFNkioO2UuujH-pj5HNBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: SViUFg1iY0-ByoFI-aGNXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Dmkxtrpcq0KmyQjBfOnMXA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 7-p3ypCarEu7OlbpGKfOcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 60-Day Money Back Guarantee
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1AWqUNFFvkahM75W2VyJVw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 7-p3ypCarEu7OlbpGKfOcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bk9zJl0yF06dmNgXPo_ydA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: gUObhGTCqku6dfJOK3SSIQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Support Options
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d8jl9mZB-0ipstnRFpMdUQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: gUObhGTCqku6dfJOK3SSIQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vFsMd6o6IkqcyWXVBvmQMw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: GR0hLMZbDEW-ZC3ycTM2XQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Stay Updated
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: H3HrBBuPokuf52xlwWTeuQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: GR0hLMZbDEW-ZC3ycTM2XQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CISJ433-xUmpX7s5NJaBuA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: gUObhGTCqku6dfJOK3SSIQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://www.celayix.com/
+    type: Input
+  tags:
+  - Side-Menu
+auxTests: []
+elements:
+- id: Zx8krQ9tiU-H9IjwSSQC0w
+  name: Action Menu
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[. = 'Action Menu']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[2]//p
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[2]/div/div/p
+    priority: 2
+- id: 7W9zAYClZ02ZRGdtBlzqrw
+  name: float
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#float'
+    priority: 0
+  - name: XPATH
+    value: //article/div/div/div/div[2]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div
+    priority: 2
+- id: WWf5XfpZrk--51IYRd8K4g
+  name: No-Risk Decisions
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h5[. = 'No-Risk Decisions']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/h5
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[1]/h5
+    priority: 2
+- id: wEJ7h7-HGUu_2u8jqxYplQ
+  name: Live Custom Demo
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Live Custom Demo']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[1]/div/p[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[1]/div/p[1]/a
+    priority: 2
+- id: SViUFg1iY0-ByoFI-aGNXA
+  name: 14-Day Trial
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#overlay_unique_id_19980'
+    priority: 0
+  - name: XPATH
+    value: //a[. = '14-Day Trial']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[1]/div/p[2]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[1]/div/p[2]/a
+    priority: 3
+- id: 7-p3ypCarEu7OlbpGKfOcA
+  name: 60-Day Money Back Guarantee
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = '60-Day Money Back Guarantee']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[1]/div/p[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[1]/div/p[3]/a
+    priority: 2
+- id: gUObhGTCqku6dfJOK3SSIQ
+  name: Support Options
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h5[. = 'Support Options']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/h5
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[2]/h5
+    priority: 2
+- id: GR0hLMZbDEW-ZC3ycTM2XQ
+  name: Stay Updated
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h5[. = 'Stay Updated']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/h5
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[3]/h5
+    priority: 2
+projectParameters: []
+addons: []
