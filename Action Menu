@@ -1,7 +1,7 @@
-id: ywQJVMykj0iY3ZLrCPyObw
+id: xZ-2ReJSSEi1utJsVvcfJA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-09-21T17:53:34.5358293Z
+created: 2021-09-21T18:03:51.4535897Z
 protocol: 1
 tests:
 - id: cF0W2ICvZkSXOS1TkqwTYQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-08T18:12:57.0000000
-  modificationDate: 2021-09-21T17:52:34.0000000
+  modificationDate: 2021-09-21T18:03:13.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -442,33 +442,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Q7sl1oADikWlfiaDvZxoKA
-    enabled: true
-    invertResult: false
-    order: 20
-    repeat: 1
-    type: Action
-    elementId: lJhR77igSEqGfBf8VCnTzA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: f.beukes@celayix.com
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: VtdoYk_Jo0mnWnkeUc8WEw
     enabled: true
     invertResult: false
-    order: 21
+    order: 20
     repeat: 1
     type: Action
     elementId: YhafWg0Oi0S5h8qFbKelyg
@@ -488,7 +465,7 @@ tests:
   - id: 2HoFtHs-N0qfHZdMq3zI0A
     enabled: true
     invertResult: false
-    order: 22
+    order: 21
     repeat: 1
     type: Action
     elementId: YhafWg0Oi0S5h8qFbKelyg
@@ -508,11 +485,75 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 2kSjb0UrjkuRezKC3y33fg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: jX1A_LGIPkCkiqA7pEKThA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _VReuFVYO0KDfgSptSNbzw
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: Rjik-WxDukuRFP8fSGrLCA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sKE7ZCcQ-0Gc_E6ExjNe7A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: 9KFTuhDtoESrasDKz4Ks5Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: There was a problem with your submission. Please review the fields below.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: a3LqZqWp1UOpQ6riy1wlRA
     comments: ''
     enabled: true
     invertResult: false
-    order: 23
+    order: 25
     repeat: 1
     type: Action
     elementId: SViUFg1iY0-ByoFI-aGNXA
@@ -536,7 +577,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 26
     repeat: 1
     type: Action
     elementId: SViUFg1iY0-ByoFI-aGNXA
@@ -557,7 +598,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 27
     repeat: 1
     type: Action
     elementId: 7-p3ypCarEu7OlbpGKfOcA
@@ -581,7 +622,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 28
     repeat: 1
     type: Action
     elementId: 7-p3ypCarEu7OlbpGKfOcA
@@ -602,7 +643,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 27
+    order: 29
     repeat: 1
     type: Action
     elementId: gUObhGTCqku6dfJOK3SSIQ
@@ -626,7 +667,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 30
     repeat: 1
     type: Action
     elementId: gUObhGTCqku6dfJOK3SSIQ
@@ -647,7 +688,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 31
     repeat: 1
     type: Action
     elementId: GR0hLMZbDEW-ZC3ycTM2XQ
@@ -671,7 +712,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 32
     repeat: 1
     type: Action
     elementId: GR0hLMZbDEW-ZC3ycTM2XQ
@@ -691,7 +732,7 @@ tests:
   - id: CISJ433-xUmpX7s5NJaBuA
     enabled: true
     invertResult: false
-    order: 31
+    order: 33
     repeat: 1
     type: Action
     elementId: gUObhGTCqku6dfJOK3SSIQ
@@ -978,5 +1019,53 @@ elements:
   - name: XPATH
     value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/form/div[1]/ul/li[6]/div/textarea
     priority: 3
+- id: jX1A_LGIPkCkiqA7pEKThA
+  name: Submit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Submit']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/form/div[2]/button/span
+    priority: 2
+- id: 9KFTuhDtoESrasDKz4Ks5Q
+  name: There was a problem with your submiss...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'There was a problem with your submission. Please review the fields below.']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/div[3]/h2
+    priority: 2
+- id: Rjik-WxDukuRFP8fSGrLCA
+  name: ×
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]//span[. = '×']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div[2]/a/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[5]/div[2]/a/span
+    priority: 2
 projectParameters: []
 addons: []
