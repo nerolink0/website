@@ -1,18 +1,18 @@
-id: -vo9IALRtk63_fHj6k4-LA
+id: ZD2zHh-wUUuVZZB5XxAMdg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-09-21T22:23:34.0462207Z
+created: 2021-09-21T23:04:49.3289041Z
 protocol: 1
 tests:
 - id: cF0W2ICvZkSXOS1TkqwTYQ
-  name: Action Menu
+  name: Free Live Demo
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-08T18:12:57.0000000
-  modificationDate: 2021-09-21T22:23:30.0000000
+  modificationDate: 2021-09-21T23:04:49.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -510,7 +510,7 @@ tests:
     value: https://www.celayix.com/
     type: Input
   tags:
-  - Side-Menu
+  - Action-Forms
 auxTests: []
 elements:
 - id: Zx8krQ9tiU-H9IjwSSQC0w
