@@ -1,18 +1,18 @@
-id: Bsp8DqEGF06QAwlljNeEuQ
+id: 3n7fFeWSvkCPXZljXc10bQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-09-24T18:10:11.6384060Z
+created: 2021-09-24T18:15:39.2235418Z
 protocol: 1
 tests:
 - id: R6gznVaiv0Gkie3KGgQaug
-  name: AMSO-CS
+  name: AM-SO-CS
   description: Testing Customer Support form in Action Menu
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-24T18:02:05.0000000
-  modificationDate: 2021-09-24T18:10:11.0000000
+  modificationDate: 2021-09-24T18:15:39.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
