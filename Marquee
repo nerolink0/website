@@ -1,7 +1,7 @@
-id: VKSvZZCwXU-r3I0qIcf9oQ
+id: t-MXM5KVD0SUI3B_feXZDg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-15T16:34:21.3978199Z
+created: 2021-10-15T17:06:38.9901701Z
 protocol: 1
 tests:
 - id: 0TDsfi7dcka1Cjz53FkuHQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-15T16:34:21.0000000
-  modificationDate: 2021-10-15T16:34:21.0000000
+  modificationDate: 2021-10-15T16:54:12.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,12 +50,155 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: OS-_l9rCR0CtXHRoiAXUaQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: M3K_wGZgVk-ewHwiv8zs1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ryg3k_sm2EWsUpRIL8Hf7Q
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 720
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1S0UR3jyeEGmz4vpGfTMgw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 800
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nuje8mkyxk6uByqZCHXJsg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CNadyYWn1UC3N-tApjD96w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: b43gydH9LkqWjseTA3bGLQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://www.celayix.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: M3K_wGZgVk-ewHwiv8zs1g
+  name: Industries
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Industries']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[3]/a
+    priority: 2
+- id: b43gydH9LkqWjseTA3bGLQ
+  name: IMG2
+  description: https://907386.smushcdn.com/2221500/wp-content/uploads/2020/07/Trust_Logos_Genesis_Security.png?size=522x210&lossy=0&strip=0&webp=1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: LINKTEXT
+    value: Genesis Security
+    priority: 0
 projectParameters: []
 addons: []
