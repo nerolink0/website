@@ -1,7 +1,7 @@
-id: mfFJojTnbUGxIO05AQaLEg
+id: r7E_7tXLEUqyIYg2P8NRXQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T19:35:16.2719367Z
+created: 2021-10-19T19:36:50.8704299Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-19T19:34:42.0000000
+  modificationDate: 2021-10-19T19:35:40.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -150,93 +150,6 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OXm4TM1gj0yKozArObwZLw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    elementId: ugxHPoJOQk6Up73ankYeRw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: Pyte3BWmfUueyd9ZWE5Pyg
-      source: Store
-      addonId: n3lQIzPLoUig5Ab2fjfGzA
-    parameterMaps:
-    - name: imagePath
-      value: '{{AutomatedEmployeeShiftScheduling}}'
-      direction: Input
-    - name: threshold
-      value: ''
-      direction: Input
-    - name: resultImagePath
-      value: ''
-      direction: Input
-    - name: imgName
-      value: ''
-      direction: Input
-    - name: fullResPath
-      value: ''
-      direction: Output
-    - name: fileFormat
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts:
-    - order: 0
-      locatorType: XPATH
-      locatorValue: //*[@name = 'fitvid0']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
-  - id: cunXUekbLUyfsqr0uLRqxA
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
-      source: System
-    parameterMaps:
-    - name: index
-      value: 1
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: MEd4MCkyLUajGhsYyu5_sQ
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
-      source: System
-    parameterMaps:
-    - name: index
-      value: 0
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -247,32 +160,6 @@ tests:
     value: https://player.vimeo.com/video/511801688
     type: Input
 auxTests: []
-elements:
-- id: ugxHPoJOQk6Up73ankYeRw
-  name: DIV11
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div/div[1]/div[3]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[3]
-    priority: 1
+elements: []
 projectParameters: []
-addons:
-- id: n3lQIzPLoUig5Ab2fjfGzA
-  source: Store
-  version: 2.6
-  actions:
-  - id: Pyte3BWmfUueyd9ZWE5Pyg
-    name: Compare image with UI element
-    description: Compare UI element with locally saved image, use 'Take element screenshot' to save the image locally first
-    className: io.testproject.addon.imagecomparison.Actions.Web.CompareImagesWeb
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: 06AB73FE0CDF1088F7393D68789FAA187CDF3644C73FD29140D261E7CB3AF821
+addons: []
