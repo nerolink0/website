@@ -1,7 +1,7 @@
-id: r7E_7tXLEUqyIYg2P8NRXQ
+id: FK4ycfFOfUmisDY3s7Clvg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T19:36:50.8704299Z
+created: 2021-10-19T20:27:13.6653466Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-19T19:35:40.0000000
+  modificationDate: 2021-10-19T20:27:05.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -150,6 +150,81 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: F761_1KTd0KdjHy18VcZrg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 320
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qEpoJKw0t0aEYZ7ITlkhIQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 320
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Edu6dQpntEWQViuqNskVbw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 321
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -159,6 +234,10 @@ tests:
     description: ''
     value: https://player.vimeo.com/video/511801688
     type: Input
+  - name: WebsiteImage
+    description: ''
+    value: C:\Users\User\Documents\TestProjectImg
+    type: Output
 auxTests: []
 elements: []
 projectParameters: []
