@@ -1,7 +1,7 @@
-id: AkWs4SmZBkuHK43bu0m6qg
+id: QHQ5DlQifUSUiWYFsmPzgg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T18:19:16.8469635Z
+created: 2021-10-19T18:23:35.7573354Z
 protocol: 1
 tests:
 - id: _RcYzO2ZmUmOeO_I8O8WXg
@@ -15,7 +15,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T17:30:49.0000000
-  modificationDate: 2021-10-19T18:11:41.0000000
+  modificationDate: 2021-10-19T18:23:23.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -246,6 +246,37 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: I1hOBZjIHky0zxt66nXnKA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Addon
+    elementId: 4tUMDgDzBkqywpw6umz0iA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: sH-MFlvh7EGwnhmxSxbLpw
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: path
+      value: C:\Users\m.shawon\Downloads
+      direction: Input
+    - name: imgName
+      value: ss1
+      direction: Input
+    - name: resultFullPath
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -303,6 +334,22 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]
     priority: 1
+- id: 4tUMDgDzBkqywpw6umz0iA
+  name: scheduling
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#scheduling'
+    priority: 0
+  - name: XPATH
+    value: //article/div/div/div/div[5]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div
+    priority: 2
 projectParameters: []
 addons:
 - id: n3lQIzPLoUig5Ab2fjfGzA
