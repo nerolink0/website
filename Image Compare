@@ -1,7 +1,7 @@
-id: ts6DbdcRNEynercSe1fDPg
+id: E-PdwHsSDEGV1xDKturY4w
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T19:09:10.3944317Z
+created: 2021-10-19T19:24:15.3866844Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-19T19:09:10.0000000
+  modificationDate: 2021-10-19T19:10:45.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -46,6 +46,81 @@ tests:
     parameterMaps:
     - name: url
       value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5eXtjpQor0uwdq15LJnrjg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 160
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9m-2hq4vbUifYXl0ufYRHQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 480
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: X-rPBViaxEGfz6cffGoMag
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 560
       direction: Input
     conditions: []
     validations: []
