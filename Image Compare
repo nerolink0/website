@@ -1,7 +1,7 @@
-id: LOBCtyYYr0euwRI78JFiFg
+id: 8Vo455y7BkKM5IjDuMXdiA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T20:38:44.6222864Z
+created: 2021-10-19T20:48:55.9812256Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-19T20:37:58.0000000
+  modificationDate: 2021-10-19T20:48:07.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -125,6 +125,83 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Ziqi5yEMm0q3Tl5MYT2hLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    elementId: ugxHPoJOQk6Up73ankYeRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: sH-MFlvh7EGwnhmxSxbLpw
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: path
+      value: C:\screenshots
+      direction: Input
+    - name: imgName
+      value: ''
+      direction: Input
+    - name: resultFullPath
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@name = 'fitvid1']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
+  - id: tYex1HQ4h0-ew5ZlWfPN5A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    elementId: ugxHPoJOQk6Up73ankYeRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: Pyte3BWmfUueyd9ZWE5Pyg
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: imagePath
+      value: C:\screenshots\screenshot_202110191343
+      direction: Input
+    - name: threshold
+      value: ''
+      direction: Input
+    - name: resultImagePath
+      value: C:\screenshots\
+      direction: Input
+    - name: imgName
+      value: ''
+      direction: Input
+    - name: fullResPath
+      value: ''
+      direction: Output
+    - name: fileFormat
+      value: png
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@name = 'fitvid1']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -139,6 +216,36 @@ tests:
     value: C:\Users\User\Documents\TestProjectImg
     type: Output
 auxTests: []
-elements: []
+elements:
+- id: ugxHPoJOQk6Up73ankYeRw
+  name: DIV11
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div[1]/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[3]
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: n3lQIzPLoUig5Ab2fjfGzA
+  source: Store
+  version: 2.6
+  actions:
+  - id: sH-MFlvh7EGwnhmxSxbLpw
+    name: Take element screenshot
+    description: Takes a screenshot of an element and saves a copy to a local path
+    className: io.testproject.addon.imagecomparison.Actions.Web.TakeScreenshotWeb
+  - id: Pyte3BWmfUueyd9ZWE5Pyg
+    name: Compare image with UI element
+    description: Compare UI element with locally saved image, use 'Take element screenshot' to save the image locally first
+    className: io.testproject.addon.imagecomparison.Actions.Web.CompareImagesWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 06AB73FE0CDF1088F7393D68789FAA187CDF3644C73FD29140D261E7CB3AF821
