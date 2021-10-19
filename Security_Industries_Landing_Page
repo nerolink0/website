@@ -1,7 +1,7 @@
-id: M6PMxzB3xUyuy12aMgS-ow
+id: AkWs4SmZBkuHK43bu0m6qg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-19T18:01:29.6146555Z
+created: 2021-10-19T18:19:16.8469635Z
 protocol: 1
 tests:
 - id: _RcYzO2ZmUmOeO_I8O8WXg
@@ -15,7 +15,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T17:30:49.0000000
-  modificationDate: 2021-10-19T18:01:01.0000000
+  modificationDate: 2021-10-19T18:11:41.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -53,6 +53,199 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 6zdmKpkSoU-95II9Bp22Wg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: M3K_wGZgVk-ewHwiv8zs1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XvFbgEbUakuvnTeMlsoYrA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: M3K_wGZgVk-ewHwiv8zs1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ngff_KdBtESdXenY3Z1G7g
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: oUXMRP5RiUyEgPWkgjvDaw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2qkHwYCGY0S9bKwaxMY8fA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 734
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: r9phST5ql0GVHHblF44VRA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 772
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CwOzurfuAUO8PIxqbdsKXQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 1079
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eFWsGtdSLkOCzsDl7-g22Q
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 148
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rzgoRrtM2EWlpdGzle43Ow
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    elementId: rMvE31eJH0CRnEW2OlDfPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: sH-MFlvh7EGwnhmxSxbLpw
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: path
+      value: C:\Users\m.shawon\Downloads
+      direction: Input
+    - name: imgName
+      value: security_video1_ss1
+      direction: Input
+    - name: resultFullPath
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -61,6 +254,67 @@ tests:
   tags:
   - Header
 auxTests: []
-elements: []
+elements:
+- id: M3K_wGZgVk-ewHwiv8zs1g
+  name: Industries
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Industries']
+    priority: 0
+  - name: XPATH
+    value: //div[@id='mega-menu-item-1834']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/div/div/ul/li[3]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[3]/a
+    priority: 3
+- id: oUXMRP5RiUyEgPWkgjvDaw
+  name: Security3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[2]/a[. = 'Security']
+    priority: 0
+  - name: XPATH
+    value: //li[3]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[3]/ul/li/ul/li[1]/ul/li[2]/a
+    priority: 2
+- id: rMvE31eJH0CRnEW2OlDfPQ
+  name: DIV10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //article/div/div/div/div[5]//div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: n3lQIzPLoUig5Ab2fjfGzA
+  source: Store
+  version: 2.6
+  actions:
+  - id: sH-MFlvh7EGwnhmxSxbLpw
+    name: Take element screenshot
+    description: Takes a screenshot of an element and saves a copy to a local path
+    className: io.testproject.addon.imagecomparison.Actions.Web.TakeScreenshotWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 06AB73FE0CDF1088F7393D68789FAA187CDF3644C73FD29140D261E7CB3AF821
