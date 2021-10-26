@@ -1,7 +1,7 @@
-id: 9HP1-7Ygi0CSW0GdtTF5Ow
+id: nAGPOcINqE6er-WwL2KsEA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-26T19:00:44.4857140Z
+created: 2021-10-26T19:11:16.0949068Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-26T18:43:05.0000000
+  modificationDate: 2021-10-26T19:09:44.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -93,40 +93,6 @@ tests:
     - order: 0
       locatorType: XPATH
       locatorValue: //*[@name = 'fitvid0']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
-  - id: dWSf07rJYE20JG1B6qm6Qg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Addon
-    elementId: 6baWVMQbqk-R6yw48-i_zA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: sH-MFlvh7EGwnhmxSxbLpw
-      source: Store
-      addonId: n3lQIzPLoUig5Ab2fjfGzA
-    parameterMaps:
-    - name: path
-      value: C:\screenshots
-      direction: Input
-    - name: imgName
-      value: Zuper
-      direction: Input
-    - name: resultFullPath
-      value: ''
-      direction: Output
-    conditions: []
-    validations: []
-    contexts:
-    - order: 0
-      locatorType: XPATH
-      locatorValue: //*[@name = 'fitvid1']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -146,19 +112,6 @@ tests:
     type: Output
 auxTests: []
 elements:
-- id: 6baWVMQbqk-R6yw48-i_zA
-  name: DIV12
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div/div[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[3]
-    priority: 0
 - id: ZrtzMNu-P0SPXScyHB6pMg
   name: Video1
   description: ''
@@ -183,10 +136,6 @@ addons:
     name: Compare image with UI element
     description: Compare UI element with locally saved image, use 'Take element screenshot' to save the image locally first
     className: io.testproject.addon.imagecomparison.Actions.Web.CompareImagesWeb
-  - id: sH-MFlvh7EGwnhmxSxbLpw
-    name: Take element screenshot
-    description: Takes a screenshot of an element and saves a copy to a local path
-    className: io.testproject.addon.imagecomparison.Actions.Web.TakeScreenshotWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
