@@ -1,7 +1,7 @@
-id: mFEfJq4--Uaq_-HM4OWOmA
+id: 9HP1-7Ygi0CSW0GdtTF5Ow
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-26T17:31:34.2190897Z
+created: 2021-10-26T19:00:44.4857140Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-26T17:30:22.0000000
+  modificationDate: 2021-10-26T18:43:05.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,6 +50,83 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Sg59zkwFRkqGZd8DJA9pTg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: ZrtzMNu-P0SPXScyHB6pMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: Pyte3BWmfUueyd9ZWE5Pyg
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: imagePath
+      value: C:\screenshots\AESS.jpg
+      direction: Input
+    - name: threshold
+      value: 10
+      direction: Input
+    - name: resultImagePath
+      value: C:\screenshots
+      direction: Input
+    - name: imgName
+      value: actualState
+      direction: Input
+    - name: fullResPath
+      value: '{{comparisonResult}}'
+      direction: Output
+    - name: fileFormat
+      value: jpg
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@name = 'fitvid0']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
+  - id: dWSf07rJYE20JG1B6qm6Qg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: 6baWVMQbqk-R6yw48-i_zA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: sH-MFlvh7EGwnhmxSxbLpw
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: path
+      value: C:\screenshots
+      direction: Input
+    - name: imgName
+      value: Zuper
+      direction: Input
+    - name: resultFullPath
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@name = 'fitvid1']|/html/body/div[2]/div/div/div/article/div/div/div/div[4]/div/div[2]/div/div/div/iframe
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -63,7 +140,55 @@ tests:
     description: ''
     value: C:\Users\User\Documents\TestProjectImg
     type: Output
+  - name: comparisonResult
+    description: ''
+    value: ''
+    type: Output
 auxTests: []
-elements: []
+elements:
+- id: 6baWVMQbqk-R6yw48-i_zA
+  name: DIV12
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]
+    priority: 0
+- id: ZrtzMNu-P0SPXScyHB6pMg
+  name: Video1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/video
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: n3lQIzPLoUig5Ab2fjfGzA
+  source: Store
+  version: 2.6
+  actions:
+  - id: Pyte3BWmfUueyd9ZWE5Pyg
+    name: Compare image with UI element
+    description: Compare UI element with locally saved image, use 'Take element screenshot' to save the image locally first
+    className: io.testproject.addon.imagecomparison.Actions.Web.CompareImagesWeb
+  - id: sH-MFlvh7EGwnhmxSxbLpw
+    name: Take element screenshot
+    description: Takes a screenshot of an element and saves a copy to a local path
+    className: io.testproject.addon.imagecomparison.Actions.Web.TakeScreenshotWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 06AB73FE0CDF1088F7393D68789FAA187CDF3644C73FD29140D261E7CB3AF821
