@@ -1,7 +1,7 @@
-id: l0U9f3MRokGnZ2sdIzLBgg
+id: mm3KI5x7MU6tO_qeF73DMg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-26T23:00:22.6391031Z
+created: 2021-10-26T23:01:54.6823935Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-26T19:49:19.0000000
+  modificationDate: 2021-10-26T23:01:10.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,11 +50,111 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: QfQpNMYJt0yFraF29WTkBw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 560
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zyOJZTF29E-olCXxvhu_8A
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 311
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fDzXB12qa0q7f1jmY9Ym7w
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 249
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6cRjir7nb0qznOq411zKqA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 160
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: Sg59zkwFRkqGZd8DJA9pTg
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 6
     repeat: 1
     type: Addon
     elementId: ZrtzMNu-P0SPXScyHB6pMg
