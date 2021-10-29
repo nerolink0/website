@@ -1,7 +1,7 @@
-id: mm3KI5x7MU6tO_qeF73DMg
+id: euit8XiQ2U6sP33FIgfE-Q
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-26T23:01:54.6823935Z
+created: 2021-10-29T16:07:36.5656192Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-26T23:01:10.0000000
+  modificationDate: 2021-10-29T16:07:29.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -173,7 +173,7 @@ tests:
       value: C:\screenshots\AESS.jpg
       direction: Input
     - name: threshold
-      value: 10
+      value: 20
       direction: Input
     - name: resultImagePath
       value: C:\screenshots
