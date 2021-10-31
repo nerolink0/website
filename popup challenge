@@ -1,7 +1,7 @@
-id: rKdVnH83bUS8RR8kD3_zTg
+id: qh5hN_WMBUie5V-ImmJsdg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-31T04:45:01.3176120Z
+created: 2021-10-31T05:14:33.8074491Z
 protocol: 1
 tests:
 - id: yf9Q_Tn9p0a8tUPsJweXrg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-31T04:45:01.0000000
-  modificationDate: 2021-10-31T04:45:01.0000000
+  modificationDate: 2021-10-31T05:13:13.0000000
   settings:
     automationAssistant: true
     appId: d6OK1xrLv0yOwiWXTBo0yA
@@ -33,7 +33,7 @@ tests:
     invertResult: false
     order: 1
     repeat: 1
-    type: Action
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -41,11 +41,36 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
+      id: 9kBdPC163Ey8WUWOuGlbwQ
+      source: Store
+      addonId: VQ4bLASZ80G7x7AN5yLfhg
     parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
+    - name: sentence
+      value: open candymapper.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: G-ZrSOH83kiWZ7SRcmzgLg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 9kBdPC163Ey8WUWOuGlbwQ
+      source: Store
+      addonId: VQ4bLASZ80G7x7AN5yLfhg
+    parameterMaps:
+    - name: sentence
+      value: 'close popup '
       direction: Input
     conditions: []
     validations: []
@@ -58,4 +83,17 @@ tests:
 auxTests: []
 elements: []
 projectParameters: []
-addons: []
+addons:
+- id: VQ4bLASZ80G7x7AN5yLfhg
+  source: Store
+  version: 2.0.6
+  actions:
+  - id: 9kBdPC163Ey8WUWOuGlbwQ
+    name: Run NLP Command
+    description: Execute {{sentence}}
+    className: momAction
+  minSdkLevel: 2
+  minSdkVersion: 0.55.0
+  sdkGeneration: 1
+  language: Java
+  hash: ADD5A726DBB4E27A6288260F231592829A6BC23A9DF994B2E4B9DF78309DC105
