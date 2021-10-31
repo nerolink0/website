@@ -1,7 +1,7 @@
-id: VkymvfEqAkqn-QLGGvwLZg
+id: uK4fnJGqY0mbvftimMgN7g
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-31T05:26:19.5513236Z
+created: 2021-10-31T05:30:26.6305310Z
 protocol: 1
 tests:
 - id: yf9Q_Tn9p0a8tUPsJweXrg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-31T04:45:01.0000000
-  modificationDate: 2021-10-31T05:26:01.0000000
+  modificationDate: 2021-10-31T05:30:13.0000000
   settings:
     automationAssistant: true
     appId: d6OK1xrLv0yOwiWXTBo0yA
@@ -70,7 +70,7 @@ tests:
       addonId: VQ4bLASZ80G7x7AN5yLfhg
     parameterMaps:
     - name: sentence
-      value: type esc
+      value: '{{closepopup}}'
       direction: Input
     conditions: []
     validations: []
@@ -79,6 +79,10 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://candymapper.com
+    type: Input
+  - name: closepopup
+    description: ''
+    value: //div/div/div/div/div[1]/*/*[name()='path']
     type: Input
 auxTests: []
 elements: []
