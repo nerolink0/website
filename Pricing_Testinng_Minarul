@@ -1,18 +1,18 @@
-id: 8KqtqzqKkUSxyDgbIeVr6g
+id: 8mhr2HaZ2kSH507yvuddtQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-04T23:15:20.6421615Z
+created: 2021-11-04T23:55:51.0666744Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
-  name: Pricing_Pricing_TEst
+  name: Pricing_Testinng_Minarul
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-04T23:12:03.0000000
+  modificationDate: 2021-11-04T23:55:51.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
