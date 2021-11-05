@@ -1,7 +1,7 @@
-id: Ssu15EmN2kOJeF9IuCpVBA
+id: etDhudJhUkm1hyhBl6Rghw
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-05T00:33:59.0043822Z
+created: 2021-11-05T00:38:54.0934969Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-05T00:33:37.0000000
+  modificationDate: 2021-11-05T00:35:57.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,12 +50,195 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: phFiDdVbUECVRDPr_jQALQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: F52QQ5J7F02ETggGoCQ9Lw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JtNdDI9lsUiQkh50yQapUg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -1528
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ww1Rl5txnEmP_1yku0v6VA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: incfA8UnXUifM-5vEoT47A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PelIACYNg0itZpmTOpGhyA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -1978
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kI3cMee5iU-B8g1aca-XVA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 299LCgUxtkyNifE1NS69Vg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: X-RfTjfsWUenuanQlfuxHA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -1978
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://www.celayix.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: F52QQ5J7F02ETggGoCQ9Lw
+  name: Request a free live demo
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Request a free live demo']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div/div[2]/div/div/p[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]/div/div/p[4]/a
+    priority: 2
+- id: incfA8UnXUifM-5vEoT47A
+  name: free live demo1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = ' free live demo']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div/div[2]/div/div/p[6]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]/div/div/p[6]/a
+    priority: 2
+- id: 299LCgUxtkyNifE1NS69Vg
+  name: free live demo2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'free live demo']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div/div[2]/div/div/p[8]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]/div/div/p[8]/a
+    priority: 2
 projectParameters: []
 addons: []
