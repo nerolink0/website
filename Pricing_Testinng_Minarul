@@ -1,7 +1,7 @@
-id: hY1MD83TFkqhyQWfVxNgIg
+id: H3I0wIyjWkOFZA67cZ7gOA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-05T00:05:09.3269567Z
+created: 2021-11-05T00:24:11.4909622Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-05T00:01:14.0000000
+  modificationDate: 2021-11-05T00:23:56.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -205,6 +205,26 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: SXZJMhhLHUC-xH9YH0R01w
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: p6cfHTpMfkWSV4Beshj10Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -275,6 +295,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div[3]/div[4]/a
+    priority: 2
+- id: p6cfHTpMfkWSV4Beshj10Q
+  name: Contact Us1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/a[. = 'Contact Us']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/div[2]/div//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[6]/div[2]/div[1]/div[2]/a
     priority: 2
 projectParameters: []
 addons: []
