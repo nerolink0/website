@@ -1,7 +1,7 @@
-id: an6EZdO0_EOrldKIDHuZ1A
+id: 75teYiRU-UGEQQLkI8j1mg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-05T01:17:58.0132503Z
+created: 2021-11-05T17:53:16.7387802Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-05T01:14:59.0000000
+  modificationDate: 2021-11-05T17:52:20.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -392,6 +392,71 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: fRF-k1m_tU2p5rN8DUaGCw
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: jX1A_LGIPkCkiqA7pEKThA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K6SwIITvZUu_wzPYq7w59g
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: vjbznxCiL0mGU6OBTUZ1Bw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bUPp8eX4fE6-1ZigC5ZGpw
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 1584
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -399,6 +464,38 @@ tests:
     type: Input
 auxTests: []
 elements:
+- id: jX1A_LGIPkCkiqA7pEKThA
+  name: Submit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Submit']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/form/div[2]/button/span
+    priority: 2
+- id: vjbznxCiL0mGU6OBTUZ1Bw
+  name: ×2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]//span[. = '×']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/a/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[1]/div[2]/a/span
+    priority: 2
 - id: F52QQ5J7F02ETggGoCQ9Lw
   name: Request a free live demo
   type:
