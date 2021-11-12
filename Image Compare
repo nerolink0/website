@@ -1,7 +1,7 @@
-id: YQG8qxDey0-S9QoaUz-iTg
+id: VlsU8yveo0mdgtBnoPrYcA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-12T22:49:57.3370404Z
+created: 2021-11-12T22:56:44.8478270Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-11-12T22:49:53.0000000
+  modificationDate: 2021-11-12T22:56:40.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -45,7 +45,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '{{ApplicationURL}}[[WebsiteStaging]]'
+      value: '[[WebsiteStaging]]'
       direction: Input
     conditions: []
     validations: []
