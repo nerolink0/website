@@ -1,7 +1,7 @@
-id: ZD2zHh-wUUuVZZB5XxAMdg
+id: maD8OMs0LUW0_YoOxm7FuA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-09-21T23:04:49.3289041Z
+created: 2021-11-12T23:11:01.7114959Z
 protocol: 1
 tests:
 - id: cF0W2ICvZkSXOS1TkqwTYQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-08T18:12:57.0000000
-  modificationDate: 2021-09-21T23:04:49.0000000
+  modificationDate: 2021-11-12T23:10:28.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -24,7 +24,7 @@ tests:
   application:
     id: tHUdqUyCsUmVvNfdXlfPfg
     name: Celayix Website
-    url: https://www.celayix.com/
+    url: https://celayixstaging.wpengine.com/
     platform: Web
   steps:
   - id: vvvKnLEURU-gUbjxfDOXlw
@@ -440,10 +440,30 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 2kSjb0UrjkuRezKC3y33fg
+  - id: 0j8GBJpiv0CEak4_RRfrag
     enabled: true
     invertResult: false
     order: 20
+    repeat: 1
+    type: Action
+    elementId: clOcwQ8egEeEneG2FHz87A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2kSjb0UrjkuRezKC3y33fg
+    enabled: true
+    invertResult: false
+    order: 21
     repeat: 1
     type: Action
     elementId: jX1A_LGIPkCkiqA7pEKThA
@@ -464,7 +484,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: 9KFTuhDtoESrasDKz4Ks5Q
@@ -487,7 +507,7 @@ tests:
   - id: _VReuFVYO0KDfgSptSNbzw
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: Rjik-WxDukuRFP8fSGrLCA
@@ -507,7 +527,7 @@ tests:
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
-    value: https://www.celayix.com/
+    value: https://celayixstaging.wpengine.com/
     type: Input
   tags:
   - Action-Forms
@@ -605,10 +625,10 @@ elements:
   locators:
   - name: CSSSELECTOR
     value: '#input_26_10'
-    priority: 0
+    priority: 1
   - name: CSSSELECTOR
     value: "[name='input_10']"
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //li[2]/div/input
     priority: 2
@@ -690,6 +710,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/form/div[1]/ul/li[6]/div/textarea
+    priority: 3
+- id: clOcwQ8egEeEneG2FHz87A
+  name: input_19
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input_26_19'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='input_19']"
+    priority: 1
+  - name: XPATH
+    value: //select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[4]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/form/div[1]/ul/li[7]/div[1]/select
     priority: 3
 - id: jX1A_LGIPkCkiqA7pEKThA
   name: Submit
