@@ -1,7 +1,7 @@
-id: euit8XiQ2U6sP33FIgfE-Q
+id: YQG8qxDey0-S9QoaUz-iTg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-10-29T16:07:36.5656192Z
+created: 2021-11-12T22:49:57.3370404Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-10-29T16:07:29.0000000
+  modificationDate: 2021-11-12T22:49:53.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -45,7 +45,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '{{ApplicationURL}}'
+      value: '{{ApplicationURL}}[[WebsiteStaging]]'
       direction: Input
     conditions: []
     validations: []
@@ -226,7 +226,10 @@ elements:
   - name: XPATH
     value: /html/body/div/div[3]
     priority: 1
-projectParameters: []
+projectParameters:
+- id: pczgKhe-ZUqlSaLR_3-e3w
+  name: WebsiteStaging
+  value: https://celayixstaging.wpengine.com/
 addons:
 - id: n3lQIzPLoUig5Ab2fjfGzA
   source: Store
