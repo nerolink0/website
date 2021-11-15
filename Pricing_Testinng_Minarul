@@ -1,7 +1,7 @@
-id: LvjS_8W4T06KqDlfzkLX6A
+id: N7uSXzT0P0esH96L-QGiqQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-12T22:58:38.2118555Z
+created: 2021-11-15T23:15:33.1934209Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-12T22:58:35.0000000
+  modificationDate: 2021-11-15T23:15:18.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -24,7 +24,7 @@ tests:
   application:
     id: tHUdqUyCsUmVvNfdXlfPfg
     name: Celayix Website
-    url: https://www.celayix.com/
+    url: https://celayixstaging.wpengine.com/
     platform: Web
   steps:
   - id: 6CFuLcy_H02lfP-xqRQLng
@@ -45,7 +45,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '[[WebsiteStaging]]'
+      value: https://www.celayix.com/
       direction: Input
     conditions: []
     validations: []
@@ -616,7 +616,7 @@ tests:
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
-    value: https://www.celayix.com/
+    value: https://celayixstaging.wpengine.com/
     type: Input
 auxTests: []
 elements:
@@ -748,8 +748,5 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div/div/div/article/div/div/div/div[2]/div[3]/div/div/div/div/div[4]/ul/li[1]/a/span
     priority: 2
-projectParameters:
-- id: pczgKhe-ZUqlSaLR_3-e3w
-  name: WebsiteStaging
-  value: https://celayixstaging.wpengine.com/
+projectParameters: []
 addons: []
