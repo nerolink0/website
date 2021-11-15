@@ -1,7 +1,7 @@
-id: N7uSXzT0P0esH96L-QGiqQ
+id: whsmaL4mB0urolm5BqPWuw
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-15T23:15:33.1934209Z
+created: 2021-11-15T23:17:08.7764415Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-15T23:15:18.0000000
+  modificationDate: 2021-11-15T23:16:05.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -613,6 +613,46 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: QZfVJKYhH0q4pkXO3nITzA
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: gUObhGTCqku6dfJOK3SSIQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ah4VpV1Q4UiLvcdSbEB43w
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: CJhpSEKV20qhma3gbtCtuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -620,6 +660,22 @@ tests:
     type: Input
 auxTests: []
 elements:
+- id: gUObhGTCqku6dfJOK3SSIQ
+  name: Support Options
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h5[. = 'Support Options']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/h5
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[2]/h5
+    priority: 2
 - id: EAN9ll4N9kCl7eAQSD8dgA
   name: 2
   type:
@@ -748,5 +804,24 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div/div/div/article/div/div/div/div[2]/div[3]/div/div/div/div/div[4]/ul/li[1]/a/span
     priority: 2
+- id: CJhpSEKV20qhma3gbtCtuQ
+  name: Free Trial Support
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#overlay_unique_id_27989'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'Free Trial Support']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div/p[2]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[2]/div/div[1]/div/div[2]/div/p[2]/a
+    priority: 3
 projectParameters: []
 addons: []
