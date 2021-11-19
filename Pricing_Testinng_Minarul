@@ -1,7 +1,7 @@
-id: P7WYZVpiW0q6zva5WcKmeg
+id: JQc-G4W8_UWiao4RTXGx8w
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-19T20:32:29.8836311Z
+created: 2021-11-19T20:36:41.2166628Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-19T20:31:09.0000000
+  modificationDate: 2021-11-19T20:36:17.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -760,6 +760,27 @@ tests:
     repeat: 1
     type: Action
     elementId: cjOJTbsKKE6yOOeybN9fXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: k_oY6f9w10uy7D2WLoiJew
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    elementId: aBA2t7ZXRkSryoqDK6L_nA
     settings:
       sleepTime: -1
       timeout: -1
