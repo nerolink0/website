@@ -1,7 +1,7 @@
-id: ZbkRYAsWeEycY8V5J_Pngg
+id: 4uJWpR0z8ES_lAybP6BjgA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-18T20:08:21.1609191Z
+created: 2021-11-19T00:40:19.1896728Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-18T20:03:30.0000000
+  modificationDate: 2021-11-19T00:39:35.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -1025,6 +1025,46 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: R4c1KLXE5U69jGYw7vo_qA
+    enabled: true
+    invertResult: false
+    order: 45
+    repeat: 1
+    type: Action
+    elementId: joU-Jd9NO0W4eILyBD2Sng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pzGcMZg7NUaCcgBRRIVOhQ
+    enabled: true
+    invertResult: false
+    order: 46
+    repeat: 1
+    type: Action
+    elementId: uvqh6gopQUaywJ1fQV0sEg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -1392,5 +1432,37 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div[3]
     priority: 3
+- id: joU-Jd9NO0W4eILyBD2Sng
+  name: Research2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/a[. = 'Research']
+    priority: 0
+  - name: XPATH
+    value: //div[17]/div[2]/div[1]//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[17]/div[2]/div[1]/div/a
+    priority: 2
+- id: uvqh6gopQUaywJ1fQV0sEg
+  name: Pricing3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/a[. = 'Pricing']
+    priority: 0
+  - name: XPATH
+    value: //div[17]/div[2]/div[2]//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[17]/div[2]/div[2]/div/a
+    priority: 2
 projectParameters: []
 addons: []
