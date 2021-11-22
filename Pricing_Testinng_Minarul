@@ -1,7 +1,7 @@
-id: S9upodyz9EeNKnlOsD8KbQ
+id: -fPVKRIC6EKu4gAUzDQiOg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-20T01:51:21.1046721Z
+created: 2021-11-22T20:00:00.3537923Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-20T01:00:42.0000000
+  modificationDate: 2021-11-22T19:59:02.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -130,6 +130,182 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: S6mqNeID20ikOniaKnuv3w
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 5LPGGKNXh0mJBcpxuneTHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aIpUnNlq10O5vQoh6mGUmA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: dy9VUTTFAUSJvIPHOLXgdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _CDH-wYWuUqS3jAfmJtvTg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: xacgeAwgMEudYTcACXkSkg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: np3I6kfae02V98i14zu_Gg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: DSx_59G3J0-ppcLhZ6MsJA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AZKkNZJO-kCuEyLyeoHYzg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 75
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l48DtSAAO0CANWQQLrCcEA
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 58
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hpXLy1vFWE6JrOfyU0GSkw
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 417
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: N509IMkS8Umq8o1umqu6xg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 0lnkd7dRvEq10w0byUSmlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -137,6 +313,25 @@ tests:
     type: Input
 auxTests: []
 elements:
+- id: DSx_59G3J0-ppcLhZ6MsJA
+  name: Security2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#ui-id-2'
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Security']
+    priority: 1
+  - name: XPATH
+    value: //div[15]/ul/li[2]/div
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[15]/ul/li[2]/div
+    priority: 3
 - id: 5LPGGKNXh0mJBcpxuneTHw
   name: >-
     Celayix Pro
@@ -206,6 +401,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[12]/ul/li[3]/div
+    priority: 3
+- id: 0lnkd7dRvEq10w0byUSmlQ
+  name: Number-1605054893235-clone185
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#Number-1605054893235-clone185'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Number-1605054893235-clone185']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/div/div[1]/div/div[1]/div/div[14]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div/div[1]/div/div/div[1]/div/div[1]/div/div[14]/div/input
     priority: 3
 projectParameters: []
 addons: []
