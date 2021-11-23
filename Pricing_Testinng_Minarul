@@ -1,7 +1,7 @@
-id: -fPVKRIC6EKu4gAUzDQiOg
+id: 2QtOaUBg7Ee3oDANz_dFWA
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-22T20:00:00.3537923Z
+created: 2021-11-23T01:45:32.8503905Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-22T19:59:02.0000000
+  modificationDate: 2021-11-23T01:43:32.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,13 +50,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 5Q8s-MGaYkq3LYN2I8Da0g
+  - id: EAqtQPj_xkyC1yS36fo0Sw
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: 5LPGGKNXh0mJBcpxuneTHw
+    elementId: -l0tk6s0R0ipReApGrBcUA
     settings:
       sleepTime: -1
       timeout: -1
@@ -70,13 +70,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: N7KhHX9njUmsMXW3F7weDg
+  - id: Wl8EkBswLUe_958mKGR5gw
+    comments: ''
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
     type: Action
-    elementId: dy9VUTTFAUSJvIPHOLXgdw
+    elementId: 5vm4KjuHu0G7UrVNPY7ztw
     settings:
       sleepTime: -1
       timeout: -1
@@ -84,19 +85,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: owyDxyRGt0uN-ybxMY8LQw
+  - id: 51B4jgt-_EqBMV323fQQqw
     enabled: true
     invertResult: false
     order: 4
     repeat: 1
     type: Action
-    elementId: xacgeAwgMEudYTcACXkSkg
+    elementId: BzmBgOEw9U2D7VDZz8PL2g
     settings:
       sleepTime: -1
       timeout: -1
@@ -110,13 +111,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: q02Dh8nDdUq4I7gKLa1Vcw
+  - id: kJNGs-9Jb0yOUB5SDCEosw
+    comments: ''
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
     type: Action
-    elementId: BOzbAaQ6DkCYM_RbFCivhQ
+    elementId: 7Se9V_fcMUeV5Q6fkHbDWQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -124,19 +126,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: S6mqNeID20ikOniaKnuv3w
+  - id: aIy_vTMfVUOAjIm9y06zBQ
     enabled: true
     invertResult: false
     order: 6
     repeat: 1
     type: Action
-    elementId: 5LPGGKNXh0mJBcpxuneTHw
+    elementId: BI7x9rKhbEyjQDLwyBIK-Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -150,13 +152,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: aIpUnNlq10O5vQoh6mGUmA
+  - id: CrhE-osPP0WP0WG2lbiwJQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Action
-    elementId: dy9VUTTFAUSJvIPHOLXgdw
+    elementId: rXGZe3Kmgk2dPJnbWRBqIA
     settings:
       sleepTime: -1
       timeout: -1
@@ -164,19 +167,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: _CDH-wYWuUqS3jAfmJtvTg
+  - id: m3POQpCH8EGMiZUZLrG6CQ
     enabled: true
     invertResult: false
     order: 8
     repeat: 1
     type: Action
-    elementId: xacgeAwgMEudYTcACXkSkg
+    elementId: R44ie5Yq_keT5XPIHefDgw
     settings:
       sleepTime: -1
       timeout: -1
@@ -190,13 +193,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: np3I6kfae02V98i14zu_Gg
+  - id: FAwzx97qEUyBD-sRcl8Cvg
+    comments: ''
     enabled: true
     invertResult: false
     order: 9
     repeat: 1
     type: Action
-    elementId: DSx_59G3J0-ppcLhZ6MsJA
+    elementId: N9KUgbRaiUeIDZqtYgiOMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2evEFlrYn0Sh17-a6CVI1w
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: BXJ3ywZAuUGZnZSt1Msf1A
     settings:
       sleepTime: -1
       timeout: -1
@@ -210,32 +234,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: AZKkNZJO-kCuEyLyeoHYzg
-    enabled: true
-    invertResult: false
-    order: 10
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: 75
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: l48DtSAAO0CANWQQLrCcEA
+  - id: XBXS_so2bEegGvOwBt_krw
     enabled: true
     invertResult: false
     order: 11
@@ -255,12 +254,12 @@ tests:
       value: 0
       direction: Input
     - name: y
-      value: 58
+      value: 1811
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: hpXLy1vFWE6JrOfyU0GSkw
+  - id: wRV-gONr8Uacrs4pAFfaTA
     enabled: true
     invertResult: false
     order: 12
@@ -280,19 +279,17 @@ tests:
       value: 0
       direction: Input
     - name: y
-      value: 417
+      value: -15
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: N509IMkS8Umq8o1umqu6xg
-    comments: ''
+  - id: qE-GqKQxAUK4jQzVNTGGAw
     enabled: true
     invertResult: false
     order: 13
     repeat: 1
     type: Action
-    elementId: 0lnkd7dRvEq10w0byUSmlQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -300,7 +297,34 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 30
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9v6xODcSW0W0GtU0Vt-PPg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: RWlDmtqWJk6x36RC8AjHDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
@@ -313,113 +337,162 @@ tests:
     type: Input
 auxTests: []
 elements:
-- id: DSx_59G3J0-ppcLhZ6MsJA
-  name: Security2
+- id: 5vm4KjuHu0G7UrVNPY7ztw
+  name: Questions for Real Live Humans?
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#ui-id-2'
-    priority: 0
-  - name: XPATH
-    value: //div[. = 'Security']
-    priority: 1
-  - name: XPATH
-    value: //div[15]/ul/li[2]/div
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[15]/ul/li[2]/div
-    priority: 3
-- id: 5LPGGKNXh0mJBcpxuneTHw
-  name: >-
-    Celayix Pro
-
-    $4 USD per active employe...
-  type:
-    id: jUwODgyNjAyNzk2NTk2MzU
-    name: label
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[6]//label[. = 'Celayix Pro$4 USD per active employee/month$995 USD one-time on-boarding']
+    value: //div[2]//h2[. = 'Questions for Real Live Humans?']
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[6]/div/div[2]/label
+    value: //article/div/div/div/div[2]/div[1]//h2
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div/div[1]/div/div/div[1]/div/div[1]/div/div[6]/div/div[2]/label
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[2]/div[1]/div/div/div/h2
     priority: 2
-- id: dy9VUTTFAUSJvIPHOLXgdw
-  name: Let me put my own information in.
+- id: -l0tk6s0R0ipReApGrBcUA
+  name: Contact Us2
   type:
-    id: jUwODgyNjAyNzk2NTk2MzU
-    name: label
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[7]//label[. = 'Let me put my own information in.']
+    value: //li[7]//a[. = 'Contact Us']
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[7]/div/div[2]/label
+    value: //li[7]/p[2]//a
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div/div[1]/div/div/div[1]/div/div[1]/div/div[7]/div/div[2]/label
+    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/div/form/div[2]/div[1]/div[1]/ul/li[7]/p[2]/span[2]/a
     priority: 2
-- id: xacgeAwgMEudYTcACXkSkg
-  name: Select your industry1
+- id: BzmBgOEw9U2D7VDZz8PL2g
+  name: Homepage
   type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[8]//span[2][. = 'Select your industry']
+    value: //a[. = 'Homepage']
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[8]//span[2]
+    value: //p/a[1]
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div/div[1]/div/div/div[1]/div/div[1]/div/div[8]/span/span[2]
+    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[1]
     priority: 2
-- id: BOzbAaQ6DkCYM_RbFCivhQ
-  name: Public Safety1
+- id: 7Se9V_fcMUeV5Q6fkHbDWQ
+  name: H1
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#ui-id-3'
+  - name: XPATH
+    value: //h1
     priority: 0
   - name: XPATH
-    value: //div[. = 'Public Safety']
+    value: /html/body/div[2]/div/div/div/article/div/div/div/div[1]/div[1]/div/div/div/h1
     priority: 1
-  - name: XPATH
-    value: //li[3]/div
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[12]/ul/li[3]/div
-    priority: 3
-- id: 0lnkd7dRvEq10w0byUSmlQ
-  name: Number-1605054893235-clone185
+- id: BI7x9rKhbEyjQDLwyBIK-Q
+  name: Privacy Policy
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#Number-1605054893235-clone185'
+  - name: XPATH
+    value: //a[. = 'Privacy Policy']
     priority: 0
-  - name: CSSSELECTOR
-    value: "[name='Number-1605054893235-clone185']"
+  - name: XPATH
+    value: //p/a[2]
     priority: 1
   - name: XPATH
-    value: //div[1]/div/div/div[1]/div/div[1]/div/div[14]//input
+    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[2]
     priority: 2
+- id: rXGZe3Kmgk2dPJnbWRBqIA
+  name: Privacy Policy1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
   - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div[2]/div/div[1]/div/div/div[1]/div/div[1]/div/div[14]/div/input
-    priority: 3
+    value: //h1[. = 'Privacy Policy']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[1]/div/div/div/div/h1
+    priority: 2
+- id: R44ie5Yq_keT5XPIHefDgw
+  name: Terms of Service
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Terms of Service']
+    priority: 0
+  - name: XPATH
+    value: //a[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[3]
+    priority: 2
+- id: N9KUgbRaiUeIDZqtYgiOMg
+  name: SOFTWARE LICENSE AGREEMENT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'SOFTWARE LICENSE AGREEMENT']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div/div/div/div/h1
+    priority: 2
+- id: BXJ3ywZAuUGZnZSt1Msf1A
+  name: Check if our Free Trial is right for ...
+  type:
+    id: jUwODgyNjAyNzk2NTk2MDk
+    name: em
+    source: System
+  locators:
+  - name: XPATH
+    value: //em[. = 'Check if our Free Trial is right for you here!']
+    priority: 0
+  - name: XPATH
+    value: //em
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[2]/div[4]/div/p/strong/span/a/em
+    priority: 2
+- id: RWlDmtqWJk6x36RC8AjHDA
+  name: Free Trial – Is it Right for Me?
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'Free Trial – Is it Right for Me?']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]/div/div/h1
+    priority: 2
 projectParameters: []
 addons: []
