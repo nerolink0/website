@@ -1,7 +1,7 @@
-id: 2QtOaUBg7Ee3oDANz_dFWA
+id: lAJxjyDs-0Ge6nEACSE4pQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-23T01:45:32.8503905Z
+created: 2021-11-23T20:18:05.7594413Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-23T01:43:32.0000000
+  modificationDate: 2021-11-23T20:13:50.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -50,13 +50,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: EAqtQPj_xkyC1yS36fo0Sw
+  - id: RrIZJJqIcEuZHDYwZvH8Ng
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: -l0tk6s0R0ipReApGrBcUA
+    elementId: MmSztYVcs0yLsldjyQj73g
     settings:
       sleepTime: -1
       timeout: -1
@@ -70,14 +70,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Wl8EkBswLUe_958mKGR5gw
-    comments: ''
+  - id: kQsIpJ29xkuWepdb4RcpPw
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
     type: Action
-    elementId: 5vm4KjuHu0G7UrVNPY7ztw
+    elementId: wwV26mFcikeIl149XVgOlg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O-StM_wuRkmpM10lVBTJ6A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: loIxK4EBwEiD1u8FZQs_Gw
     settings:
       sleepTime: -1
       timeout: -1
@@ -91,34 +111,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 51B4jgt-_EqBMV323fQQqw
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: BzmBgOEw9U2D7VDZz8PL2g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: kJNGs-9Jb0yOUB5SDCEosw
+  - id: UcAlWBNeAUCwA1SCdOkyDQ
     comments: ''
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
     type: Action
-    elementId: 7Se9V_fcMUeV5Q6fkHbDWQ
+    elementId: Y7urNSdabUyXeC3fHnlo3Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -132,191 +132,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: aIy_vTMfVUOAjIm9y06zBQ
+  - id: qC68xFX_w0yPg2BaKCpb8Q
+    comments: ''
     enabled: true
     invertResult: false
     order: 6
     repeat: 1
     type: Action
-    elementId: BI7x9rKhbEyjQDLwyBIK-Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: CrhE-osPP0WP0WG2lbiwJQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: rXGZe3Kmgk2dPJnbWRBqIA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: m3POQpCH8EGMiZUZLrG6CQ
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: R44ie5Yq_keT5XPIHefDgw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: FAwzx97qEUyBD-sRcl8Cvg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: N9KUgbRaiUeIDZqtYgiOMg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 2evEFlrYn0Sh17-a6CVI1w
-    enabled: true
-    invertResult: false
-    order: 10
-    repeat: 1
-    type: Action
-    elementId: BXJ3ywZAuUGZnZSt1Msf1A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: XBXS_so2bEegGvOwBt_krw
-    enabled: true
-    invertResult: false
-    order: 11
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: 1811
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: wRV-gONr8Uacrs4pAFfaTA
-    enabled: true
-    invertResult: false
-    order: 12
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: -15
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: qE-GqKQxAUK4jQzVNTGGAw
-    enabled: true
-    invertResult: false
-    order: 13
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: 30
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 9v6xODcSW0W0GtU0Vt-PPg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 14
-    repeat: 1
-    type: Action
-    elementId: RWlDmtqWJk6x36RC8AjHDA
+    elementId: 9nWYLrg8vU21LETHrLRQlA
     settings:
       sleepTime: -1
       timeout: -1
@@ -337,162 +160,82 @@ tests:
     type: Input
 auxTests: []
 elements:
-- id: 5vm4KjuHu0G7UrVNPY7ztw
-  name: Questions for Real Live Humans?
+- id: MmSztYVcs0yLsldjyQj73g
+  name: SPAN1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[9]//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[9]/div/form/span
+    priority: 1
+- id: wwV26mFcikeIl149XVgOlg
+  name: s
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = '   Search Celayix.com']
+    priority: 0
+  - name: XPATH
+    value: //li[9]//input[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/header/div/div[1]/div/div/div/ul/li[9]/div/form/input[2]
+    priority: 2
+- id: loIxK4EBwEiD1u8FZQs_Gw
+  name: Contact
   type:
     id: jUwODgyNjAyNzk2NTk1NTA
     name: Heading
     source: System
   locators:
   - name: XPATH
-    value: //div[2]//h2[. = 'Questions for Real Live Humans?']
+    value: //div[3]//h2[. = 'Contact']
     priority: 0
   - name: XPATH
-    value: //article/div/div/div/div[2]/div[1]//h2
+    value: //div[3]/div/div/div/div/div/div[1]/article[1]/h2
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[2]/div[1]/div/div/div/h2
+    value: /html/body/div[1]/div/div/div/div/div/div/div[3]/div/div/div/div/div/div[1]/article[1]/h2
     priority: 2
-- id: -l0tk6s0R0ipReApGrBcUA
-  name: Contact Us2
+- id: Y7urNSdabUyXeC3fHnlo3Q
+  name: Shift Workers – Why Scheduling Them C...
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
     source: System
   locators:
   - name: XPATH
-    value: //li[7]//a[. = 'Contact Us']
+    value: //div[3]//a[. = 'Shift Workers – Why Scheduling Them Can Be Difficult!']
     priority: 0
   - name: XPATH
-    value: //li[7]/p[2]//a
+    value: //div[3]/div/div/div/div/div/div[1]/article[1]/h2/a
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[1]/div/div/div/form/div[2]/div[1]/div[1]/ul/li[7]/p[2]/span[2]/a
+    value: /html/body/div[1]/div/div/div/div/div/div/div[3]/div/div/div/div/div/div[1]/article[1]/h2/a
     priority: 2
-- id: BzmBgOEw9U2D7VDZz8PL2g
-  name: Homepage
+- id: 9nWYLrg8vU21LETHrLRQlA
+  name: Flexible Work Schedules for Shift Wor...
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'Homepage']
+    value: //div[3]//a[. = 'Flexible Work Schedules for Shift Workers']
     priority: 0
   - name: XPATH
-    value: //p/a[1]
+    value: //div[3]/div/div/div/div/div/div[1]/article[1]/h2/a
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[1]
-    priority: 2
-- id: 7Se9V_fcMUeV5Q6fkHbDWQ
-  name: H1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTA
-    name: Heading
-    source: System
-  locators:
-  - name: XPATH
-    value: //h1
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div/div/div/article/div/div/div/div[1]/div[1]/div/div/div/h1
-    priority: 1
-- id: BI7x9rKhbEyjQDLwyBIK-Q
-  name: Privacy Policy
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Privacy Policy']
-    priority: 0
-  - name: XPATH
-    value: //p/a[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[2]
-    priority: 2
-- id: rXGZe3Kmgk2dPJnbWRBqIA
-  name: Privacy Policy1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTA
-    name: Heading
-    source: System
-  locators:
-  - name: XPATH
-    value: //h1[. = 'Privacy Policy']
-    priority: 0
-  - name: XPATH
-    value: //h1
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[1]/div/div/div/div/h1
-    priority: 2
-- id: R44ie5Yq_keT5XPIHefDgw
-  name: Terms of Service
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Terms of Service']
-    priority: 0
-  - name: XPATH
-    value: //a[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[1]/div[2]/div/p/a[3]
-    priority: 2
-- id: N9KUgbRaiUeIDZqtYgiOMg
-  name: SOFTWARE LICENSE AGREEMENT
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTA
-    name: Heading
-    source: System
-  locators:
-  - name: XPATH
-    value: //h1[. = 'SOFTWARE LICENSE AGREEMENT']
-    priority: 0
-  - name: XPATH
-    value: //h1
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div/div/div/div/h1
-    priority: 2
-- id: BXJ3ywZAuUGZnZSt1Msf1A
-  name: Check if our Free Trial is right for ...
-  type:
-    id: jUwODgyNjAyNzk2NTk2MDk
-    name: em
-    source: System
-  locators:
-  - name: XPATH
-    value: //em[. = 'Check if our Free Trial is right for you here!']
-    priority: 0
-  - name: XPATH
-    value: //em
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/article/div/div/div/div/div/div[2]/div[2]/div[4]/div/p/strong/span/a/em
-    priority: 2
-- id: RWlDmtqWJk6x36RC8AjHDA
-  name: Free Trial – Is it Right for Me?
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTA
-    name: Heading
-    source: System
-  locators:
-  - name: XPATH
-    value: //h1[. = 'Free Trial – Is it Right for Me?']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/h1
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/div/article/div/div/div/div[5]/div/div[2]/div/div/h1
+    value: /html/body/div[1]/div/div/div/div/div/div/div[3]/div/div/div/div/div/div[1]/article[1]/h2/a
     priority: 2
 projectParameters: []
 addons: []
