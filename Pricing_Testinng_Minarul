@@ -1,7 +1,7 @@
-id: KnEll0G6SEiIciLUl0PyWQ
+id: wRCaI2aaPEaOrtc62QHJ0w
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-23T22:51:14.6092562Z
+created: 2021-11-23T23:51:06.1474676Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-23T22:48:28.0000000
+  modificationDate: 2021-11-23T23:49:46.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -260,6 +260,108 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: ZQ5ZXHfuSkmFG9I9rVXx-w
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 6c_PQfpiO0qvpae7gVBt-Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qNgUYxW7z0yrAwgRo3-0FA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: xCIAE7OKKkG_U9k9bMLjaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TbcVB2HtKU6FwOTy69az2Q
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: LuXujt-m2E-OpBbNGpqtMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: weaHMyOUbk2xaAEmaz86cA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: ACavnjG1TUOiFRe7t5ZFMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iVFFVg28PUm0_w1M91D7Bg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: W0Q9eMT1wUSsoc75RkejyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -400,6 +502,89 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/div/article/div/div/div/div/div[2]/div[2]/div[4]/div[2]/form/p/textarea
+    priority: 2
+- id: 6c_PQfpiO0qvpae7gVBt-Q
+  name: Continue to login1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[1]//a[. = 'Continue to login']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div[2]/div[1]/div[3]/a
+    priority: 2
+- id: xCIAE7OKKkG_U9k9bMLjaQ
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[3]/div/div[1]/form/div[2]/input
+    priority: 3
+- id: LuXujt-m2E-OpBbNGpqtMg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[3]/div/div[1]/form/div[3]/input
+    priority: 3
+- id: ACavnjG1TUOiFRe7t5ZFMg
+  name: DIV16
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[3]/div/div[1]/div[2]
+    priority: 1
+- id: W0Q9eMT1wUSsoc75RkejyQ
+  name: Please enter a valid client ID and tr...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Please enter a valid client ID and try again. If you do not know your client ID, contact the administrator of your company.']
+    priority: 0
+  - name: XPATH
+    value: //span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[3]/div/div[1]/div[2]/span[2]
     priority: 2
 projectParameters: []
 addons: []
