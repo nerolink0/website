@@ -1,7 +1,7 @@
-id: lAJxjyDs-0Ge6nEACSE4pQ
+id: KnEll0G6SEiIciLUl0PyWQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-23T20:18:05.7594413Z
+created: 2021-11-23T22:51:14.6092562Z
 protocol: 1
 tests:
 - id: KS0AQvOCsUaOeh-sdA2crw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-04T23:09:41.0000000
-  modificationDate: 2021-11-23T20:13:50.0000000
+  modificationDate: 2021-11-23T22:48:28.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -153,6 +153,113 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: wElCxwaVa0iPIDOxlmf-Zg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mSFoZGCxskWB69ybKpv3qQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: robot1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _DZuBo_YuUKYE2OFHveweA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: idlsNhosMEqrUBEwdd-sdg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: vx1oVEy66UufRvtRD2c5ZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NtztuMHq1E24HTjCWnqgDQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: vAvnPSWMgUOLNJ-sHk4gpw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -236,6 +343,63 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/div/div/div/div/div[3]/div/div/div/div/div/div[1]/article[1]/h2/a
+    priority: 2
+- id: W0Qx-fEQD0iFPlx0Nr7Tnw
+  name: et_pb_contact_clientid_0
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#et_pb_contact_clientid_0'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='et_pb_contact_clientid_0']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Celayix Client ID']
+    priority: 2
+  - name: XPATH
+    value: //p/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div[2]/div[2]/div[4]/div[2]/form/p/input
+    priority: 4
+- id: vx1oVEy66UufRvtRD2c5ZQ
+  name: Continue to login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#goto_citrix'
+    priority: 0
+  - name: XPATH
+    value: //div[6]/a[. = 'Continue to login']
+    priority: 1
+  - name: XPATH
+    value: //div[6]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div[2]/div[2]/div[6]/a
+    priority: 3
+- id: vAvnPSWMgUOLNJ-sHk4gpw
+  name: clientId_hint
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#clientId_hint'
+    priority: 0
+  - name: XPATH
+    value: //p/textarea
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/article/div/div/div/div/div[2]/div[2]/div[4]/div[2]/form/p/textarea
     priority: 2
 projectParameters: []
 addons: []
