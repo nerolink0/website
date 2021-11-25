@@ -1,0 +1,61 @@
+id: 6K4P_eJwqEmMIYxrHMoDbg
+projectId: yY30x06WHkSvN5tgSnFaHQ
+projectName: Website
+created: 2021-11-25T21:24:53.6852896Z
+protocol: 1
+tests:
+- id: C_KIHzL6tEWyqscModLn8A
+  name: eTimeXP Login
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-11-25T21:24:53.0000000
+  modificationDate: 2021-11-25T21:24:53.0000000
+  settings:
+    automationAssistant: true
+    appId: tHUdqUyCsUmVvNfdXlfPfg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tHUdqUyCsUmVvNfdXlfPfg
+    name: Celayix Website
+    url: https://celayixstaging.wpengine.com/
+    platform: Web
+  steps:
+  - id: hV8wHGUCOEe36NPTuodChg
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://celayixstaging.wpengine.com/
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
