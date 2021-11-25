@@ -1,7 +1,7 @@
-id: A-HQ0W-fE0icx_iNlHFY5A
+id: 0W_SFVJkNE2vfe08UhLafg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-25T21:30:31.6435231Z
+created: 2021-11-25T21:35:20.1598900Z
 protocol: 1
 tests:
 - id: C_KIHzL6tEWyqscModLn8A
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-25T21:24:53.0000000
-  modificationDate: 2021-11-25T21:30:07.0000000
+  modificationDate: 2021-11-25T21:34:48.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -70,10 +70,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: VLkh-M_hoUuDzJ7G2Z_gWQ
+  - id: vws5CBzqKE2uPZGSe5URwQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 3
+    repeat: 1
+    type: Action
+    elementId: vx1oVEy66UufRvtRD2c5ZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VLkh-M_hoUuDzJ7G2Z_gWQ
+    enabled: true
+    invertResult: false
+    order: 4
     repeat: 1
     type: Action
     elementId: vx1oVEy66UufRvtRD2c5ZQ
@@ -94,7 +115,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: vAvnPSWMgUOLNJ-sHk4gpw
@@ -117,7 +138,7 @@ tests:
   - id: nwO_BiUreEify8X3ifhk0Q
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
@@ -140,7 +161,7 @@ tests:
   - id: iKD6k4N8ckSCK2SQLi5tdg
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: vx1oVEy66UufRvtRD2c5ZQ
