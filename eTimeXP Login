@@ -1,7 +1,7 @@
-id: X4JCbfkCtEmabUDkk3O8SQ
+id: PkA62n5YB0SQm4PnKc1h9g
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-26T18:28:43.2510769Z
+created: 2021-11-26T18:31:48.0384431Z
 protocol: 1
 tests:
 - id: C_KIHzL6tEWyqscModLn8A
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-25T21:24:53.0000000
-  modificationDate: 2021-11-26T18:28:16.0000000
+  modificationDate: 2021-11-26T18:31:41.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -70,35 +70,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: rmodOXbXQE-ujyFT9a4Upg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Continue
-      takeScreenshotConditionType: Inherit
-    action:
-      id: vGrq7SjsTkeBy-MYhsUtFg
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: timeout
-      value: 10
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: vws5CBzqKE2uPZGSe5URwQ
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: vx1oVEy66UufRvtRD2c5ZQ
@@ -119,7 +95,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
@@ -139,7 +115,7 @@ tests:
   - id: nwO_BiUreEify8X3ifhk0Q
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: W0Qx-fEQD0iFPlx0Nr7Tnw
@@ -159,10 +135,58 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: VLkh-M_hoUuDzJ7G2Z_gWQ
+  - id: rmodOXbXQE-ujyFT9a4Upg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Continue
+      takeScreenshotConditionType: Inherit
+    action:
+      id: vGrq7SjsTkeBy-MYhsUtFg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: timeout
+      value: 10
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fYLNBtzrm0WzXUgF29b_8w
+    comments: ''
     enabled: true
     invertResult: false
     order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VLkh-M_hoUuDzJ7G2Z_gWQ
+    enabled: true
+    invertResult: false
+    order: 8
     repeat: 1
     type: Action
     elementId: vx1oVEy66UufRvtRD2c5ZQ
@@ -183,7 +207,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: vAvnPSWMgUOLNJ-sHk4gpw
@@ -293,6 +317,10 @@ addons:
     name: Wait for alert presence
     description: Is alert displayed?
     className: io.testproject.addons.web.alert.WaitForAlertPresence
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
