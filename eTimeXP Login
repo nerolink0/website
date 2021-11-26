@@ -1,7 +1,7 @@
-id: jU1Ud97igUm_6rqw1F8njA
+id: fCYG0N2Rv0KSGx04TEGkBQ
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-26T18:18:43.9577692Z
+created: 2021-11-26T18:18:51.4803468Z
 protocol: 1
 tests:
 - id: C_KIHzL6tEWyqscModLn8A
@@ -12,11 +12,11 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-25T21:24:53.0000000
-  modificationDate: 2021-11-26T18:18:44.0000000
+  modificationDate: 2021-11-26T18:18:51.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
-    stepSleepTime: 500
+    stepSleepTime: 1000
     stepTimeout: 25000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
