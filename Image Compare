@@ -1,7 +1,7 @@
-id: VlsU8yveo0mdgtBnoPrYcA
+id: HI09hRUdOkGqg7Od-lxDcg
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-12T22:56:44.8478270Z
+created: 2021-11-29T19:29:10.8731202Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-11-12T22:56:40.0000000
+  modificationDate: 2021-11-29T19:29:03.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -24,7 +24,7 @@ tests:
   application:
     id: tHUdqUyCsUmVvNfdXlfPfg
     name: Celayix Website
-    url: https://www.celayix.com/
+    url: https://celayixstaging.wpengine.com/
     platform: Web
   steps:
   - id: epnlKiN6B0exS6vbXDk5TQ
@@ -196,7 +196,7 @@ tests:
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
-    value: https://www.celayix.com/
+    value: https://celayixstaging.wpengine.com/
     type: Input
   - name: AutomatedEmployeeShiftScheduling
     description: ''
