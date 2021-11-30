@@ -1,7 +1,7 @@
-id: HI09hRUdOkGqg7Od-lxDcg
+id: ytiDO9a5kUiwuK_GM3g_Ig
 projectId: yY30x06WHkSvN5tgSnFaHQ
 projectName: Website
-created: 2021-11-29T19:29:10.8731202Z
+created: 2021-11-30T18:02:32.2006522Z
 protocol: 1
 tests:
 - id: -jrSs5mmbkCyHmE7-5J6ow
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-19T19:09:10.0000000
-  modificationDate: 2021-11-29T19:29:03.0000000
+  modificationDate: 2021-11-30T18:02:28.0000000
   settings:
     automationAssistant: true
     appId: tHUdqUyCsUmVvNfdXlfPfg
@@ -162,7 +162,7 @@ tests:
       sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
-      failureBehaviorType: Inherit
+      failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
       id: Pyte3BWmfUueyd9ZWE5Pyg
